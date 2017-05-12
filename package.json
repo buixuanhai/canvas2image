@@ -1,0 +1,22 @@
+{
+  "name": "2cs-canvas2image",
+  "version": "0.0.2",
+  "description": "Canvas2image",
+  "main": "canvas2image.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buixuanhai/canvas2image.git"
+  },
+  "keywords": [
+    "canvas2image"
+  ],
+  "author": "Hai Bui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buixuanhai/canvas2image/issues"
+  },
+  "homepage": "https://github.com/buixuanhai/canvas2image#readme"
+}

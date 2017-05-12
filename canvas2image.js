@@ -205,10 +205,10 @@ var Canvas2Image = function () {
 			if (/bmp/.test(type)) {
 				var data = getImageData(scaleCanvas(canvas, width, height));
 				var strData = genBitmapImage(data);
-				saveFile(makeURI(strData, downloadMime));
+				// saveFile(makeURI(strData, downloadMime));
 			} else {
 				var strData = getDataURL(canvas, type, width, height);
-				saveFile(strData.replace(type, downloadMime));
+				// saveFile(strData.replace(type, downloadMime));
 			}
 		}
 	};
